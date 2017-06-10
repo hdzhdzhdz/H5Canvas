@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('王玉柱');
+      S.UI.simulate('毕设作品|粒子文字||');
     }
 
     S.Drawing.loop(function () {
