@@ -720,3 +720,6 @@ S.Shape = (function () {
 
 
 S.init();
+function back(){
+    history.go(-1);
+}
